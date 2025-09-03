@@ -50,9 +50,9 @@ The short answer is intended for the TAs' names. The checkbox is by the TAs to s
 
 ##### Image example
 
-![Short answer "Name" question](C:\Users\jujao\Documents\pinecode\project\images\Screenshot (17).png)
+![Short answer "Name" question](../images/Screenshot (17).png)
 
-![Checkbox grid "Availability" question](C:\Users\jujao\Documents\pinecode\project\images\Screenshot (18).png)
+![Checkbox grid "Availability" question](../images/Screenshot (18).png)
 
 ### Usage
 
