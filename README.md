@@ -56,9 +56,21 @@ The short answer is intended for the TAs' names. The checkbox is by the TAs to s
 
 ### Usage
 
-only print out to terminal the pairings
+```
+py or python3 recitation_scheduler_V3.py [csv]
+```
 
-print out csv file
+Where `csv`, when typed as an argument, signals to the parser to output a file named scheduleAssignment.csv with the students and time slots assigned to each TA in csv format. 
+
+If the argument `csv`is not used, then each TA's assignment will just be printed out to the terminal. 
+
+Once the program executes, it will ask for the paths of the time availability .csv files for the TAs and students. These can be absolute or relative paths. 
+```
+Input the file path of the .csv file with TA time slot
+>
+Input the file path of the .csv file with Student time slots
+>
+```
 
 ### Testing
 

@@ -63,13 +63,23 @@ def get_csv_file():
   """
 
   print("Input the file path of the .csv file with TA time slots")
-  csv_file_ta = input("> ")
-  csv_file_ta = csv_file_ta.strip("\"")
-  file_name_ta = path.abspath(csv_file_ta)
-  print("Input the file path of the .csv file with Student time slots")
-  csv_file_student = input("> ")
-  csv_file_student = csv_file_student.strip("\"")
-  file_name_student = path.abspath(csv_file_student)
+  csv_file_ta = input("> ").strip().strip("\"'")
+  print("Input the file path of the .csv file with student time slots")
+  csv_file_student = input("> ").strip().strip("\"'")
+
+  file_name_ta = path.abspath(path.expanduser(path.normpath(csv_file_ta)))
+  file_name_student = path.abspath(path.expanduser(path.normpath(csv_file_student)))
+
+  ok = True
+  if not path.isfile(file_name_ta):
+    print(f"Could not find the file {file_name_ta}")
+    ok = False
+  if not path.isfile(file_name_student):
+    print(f"Could not find the file {file_name_student}")
+    ok = False
+
+  if not ok:
+    sys.exit(1)
 
   return file_name_student, file_name_ta
 
