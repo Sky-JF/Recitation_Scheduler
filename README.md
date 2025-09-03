@@ -56,8 +56,14 @@ The short answer is intended for the TAs' names. The checkbox is by the TAs to s
 
 ### Usage
 
+Windows
 ```
-py or python3 recitation_scheduler_V3.py [csv]
+py recitation_scheduler_V3.py [csv]
+```
+
+macOS / Linux
+```
+python3 recitation_scheduler_V3.py [csv]
 ```
 
 Where `csv`, when typed as an argument, signals to the parser to output a file named scheduleAssignment.csv with the students and time slots assigned to each TA in csv format. 
