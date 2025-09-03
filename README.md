@@ -29,9 +29,9 @@ The short answer is intended for the students' names. The checkbox is used by th
 
 ##### Image example
 
-![Short answer "Name" question](../images/Screenshot%20(15).png)
+![Short answer "Name" question](images/Screenshot%20(15).png)
 
-![Checkbox "Availability" question](../images/Screenshot%20(16).png)
+![Checkbox "Availability" question](images/Screenshot%20(16).png)
 
 #### TAs' form
 
@@ -50,9 +50,9 @@ The short answer is intended for the TAs' names. The checkbox is by the TAs to s
 
 ##### Image example
 
-![Short answer "Name" question](../images/Screenshot%20(17).png)
+![Short answer "Name" question](images/Screenshot%20(17).png)
 
-![Checkbox grid "Availability" question](../images/Screenshot%20(18).png)
+![Checkbox grid "Availability" question](images/Screenshot%20(18).png)
 
 ### Usage
 
